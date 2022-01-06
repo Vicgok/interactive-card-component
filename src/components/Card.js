@@ -39,24 +39,26 @@ const Card = () => {
   }
   return (
     <div className="card-container">
-      <p className="pageviews">{views} pageviews</p>
-      <input
-        type="range"
-        className="rangeSlider"
-        min="0"
-        max="4"
-        defaultValue="2"
-        onChange={sliderThumbHandler}
-        step="1"
-      ></input>
-      <p className="price">
-        <span>${price}</span>/month
-      </p>
+      <div className="card__price-content">
+        <p className="pageviews">{views} pageviews</p>
+        <input
+          type="range"
+          className="rangeSlider"
+          min="0"
+          max="4"
+          defaultValue="2"
+          onChange={sliderThumbHandler}
+          step="1"
+        ></input>
+        <p className="price">
+          <span>${price}</span>/month
+        </p>
+      </div>
       <div className="subcriptionType">
         <p>Monthly Billing</p>
         <input type="checkbox" onChange={discountToggleHandler}></input>
         <p>
-          Yearly Billing{' '}
+          Yearly Billing
           <span className="discountPrice">
             -25% <span className="textForLargeScreen"> discount</span>
           </span>

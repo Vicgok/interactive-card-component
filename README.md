@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/interactive-pricing-component-using-react-js-KJVVKtBrR)
+- Live Site URL: [Live site](https://vicgok.github.io/interactive-card-component/)
 
 ## Author
 
