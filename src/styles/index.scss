@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+@import './variables';
+@import './app';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+
+  background: url(../images/pattern-circles.svg) no-repeat center 5rem,
+    url(../images/bg-pattern.svg) no-repeat 0 0 / 100% 50vh, $Main_Background;
+  -webkit-tap-highlight-color: transparent;
+}
